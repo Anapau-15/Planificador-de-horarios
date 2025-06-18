@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="473.0" layoutX="141.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="554.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="51.0" layoutX="141.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="554.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="51.0" layoutX="141.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" width="554.0" />
+      <Button layoutY="18.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Notificaciones" />
+      <Button layoutY="73.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Compartir" />
+      <Button layoutY="130.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Crear" />
+      <Button layoutY="187.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Semana" />
+      <Button layoutY="243.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="3°A-DSM" />
+      <Button layoutY="296.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Personal" />
+      <Button layoutY="357.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Reuniones" />
+      <Button layoutY="415.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Citas" />
+      <Button layoutY="474.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" text="Familia" />
+      <TextField layoutX="706.0" layoutY="109.0" prefHeight="43.0" prefWidth="121.0" />
+      <TextField layoutX="716.0" layoutY="119.0" prefHeight="43.0" prefWidth="121.0" />
+   </children>
+</AnchorPane>
