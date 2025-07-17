@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#aebf7f" height="300.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <ScrollPane layoutY="68.0" prefHeight="232.0" prefWidth="400.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="232.0" prefWidth="402.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Notificacion" />
+                  <Label layoutX="14.0" layoutY="41.0" text="Notificacion" />
+                  <Label layoutX="14.0" layoutY="69.0" text="Notificacion" />
+                  <Label layoutX="14.0" layoutY="100.0" text="Notificacion" />
+                  <Label layoutX="14.0" layoutY="129.0" text="Notificacion" />
+                  <Label layoutX="14.0" layoutY="157.0" text="Notificacion" />
+                  <Label layoutX="14.0" layoutY="191.0" text="Notificacion" />
+                  <Label layoutX="163.0" layoutY="14.0" text="//Mantenimiento" />
+                  <Label layoutX="163.0" layoutY="41.0" text="//Mantenimiento" />
+                  <Label layoutX="163.0" layoutY="69.0" text="//Mantenimiento" />
+                  <Label layoutX="163.0" layoutY="100.0" text="//Mantenimiento" />
+                  <Label layoutX="163.0" layoutY="129.0" text="//Mantenimiento" />
+                  <Label layoutX="163.0" layoutY="157.0" text="//Mantenimiento" />
+                  <Label layoutX="163.0" layoutY="191.0" text="//Mantenimiento" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Label alignment="CENTER" layoutX="120.0" layoutY="25.0" text="Notificaciones" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
