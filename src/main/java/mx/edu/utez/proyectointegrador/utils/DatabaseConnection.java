@@ -60,7 +60,7 @@ public class DatabaseConnection {
     public static void main(String[] args){
         try (Connection conn = DatabaseConnection.getConnection()) {
             if (conn != null && !conn.isClosed()) {
-                System.out.println("Conexión a la base de datos exitosa.");
+                System.out.println("Conexión a la base de datos exitosa .");
             } else {
                 System.out.println("La conexión es nula o está cerrada.");
             }
