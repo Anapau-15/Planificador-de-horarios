@@ -1,4 +1,4 @@
-package mx.edu.utez.proyectointegrador.controllers;
+package mx.edu.utez.proyectointegrador.Controllers;
 
 import com.calendarfx.view.CalendarView;
 import javafx.fxml.FXML;

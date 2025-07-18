@@ -1,4 +1,4 @@
-package mx.edu.utez.proyectointegrador.controllers;
+package mx.edu.utez.proyectointegrador.Controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

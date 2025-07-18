@@ -3,6 +3,6 @@
 <?import com.calendarfx.view.*?>
 <?import javafx.scene.layout.*?>
 
-<StackPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.utez.proyectointegrador.controllers.ControladorCalendario">
+<StackPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.utez.proyectointegrador.Controllers.ControladorCalendario">
     <CalendarView fx:id="calendarView" availabilityFill="#a429291a" prefHeight="350.0" prefWidth="5000.0" />
 </StackPane>

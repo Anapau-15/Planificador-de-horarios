@@ -12,8 +12,8 @@ module mx.edu.utez.proyectointegrador {
     requires ucp;
 
     opens mx.edu.utez.proyectointegrador to javafx.fxml;
-    exports mx.edu.utez.proyectointegrador.controllers;
-    opens mx.edu.utez.proyectointegrador.controllers to javafx.fxml;
+    exports mx.edu.utez.proyectointegrador.Controllers;
+    opens mx.edu.utez.proyectointegrador.Controllers to javafx.fxml;
     exports mx.edu.utez.proyectointegrador.models;
     opens mx.edu.utez.proyectointegrador.models to javafx.fxml;
 }
