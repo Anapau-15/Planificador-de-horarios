@@ -1,4 +1,4 @@
-package mx.edu.utez.proyectointegrador;
+package mx.edu.utez.proyectointegrador.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -8,29 +8,42 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-public class ControllerCrearCalendario {
+public class ControllerVistas {
+    // Botones (opcional, si necesitas referencia a ellos)
     @FXML
-    private Button botonAñadirHora;
+    private Button btnDia;
     @FXML
-    private Button botonRepetirDia;
+    private Button btnSemana;
+    @FXML
+    private Button btnAnio;
 
     @FXML
-    private void SeleccionarHora(ActionEvent event) {
+    private void CalendarioDia(ActionEvent event) {
         abrirVentana(
-                "/mx/edu/utez/proyectointegrador/BotonAñadirHora.fxml",
-                "Seleccionar Hora",
-                180,
-                405
+                "/mx/edu/utez/proyectointegrador/CalendarioPorDia.fxml",
+                "Calendario por Día",
+                855,
+                590
         );
     }
 
     @FXML
-    private void SeleccionarRepetir(ActionEvent event) {
+    private void CalendarioSemana(ActionEvent event) {
         abrirVentana(
-                "/mx/edu/utez/proyectointegrador/BotonRepetirDia.fxml",
-                "Repetir Día",
-                280,
-                280
+                "/mx/edu/utez/proyectointegrador/CalendarioSemana.fxml",
+                "Calendario por Semana",
+                1550,  // Ancho sugerido para vista semanal
+                800   // Alto sugerido
+        );
+    }
+
+    @FXML
+    private void CalendarioAño(ActionEvent event) {
+        abrirVentana(
+                "/mx/edu/utez/proyectointegrador/CalendarioPorAño.fxml",
+                "Calendario por Año",
+                1100,  // Ancho sugerido para vista anual
+                690    // Alto sugerido
         );
     }
 
@@ -43,11 +56,11 @@ public class ControllerCrearCalendario {
             newStage.setTitle(title);
             newStage.setScene(scene);
 
-            // Configuración de tamaño específico
+            // Configuración de tamaño
             newStage.setWidth(width);
             newStage.setHeight(height);
 
-            // Centrar la ventana
+            // Centrar ventana
             newStage.centerOnScreen();
 
             // Evitar redimensionamiento

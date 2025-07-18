@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="MyPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="794.0" prefWidth="1538.0" style="-fx-background-color: #fffff4;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.utez.proyectointegrador.controllers.HelloController">
+   <children>
+      <Label layoutX="1343.0" layoutY="31.0" prefHeight="50.0" prefWidth="187.0" text="PENDIENTES">
+         <font>
+            <Font name="Source Code Pro Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="Button" layoutX="46.0" layoutY="87.0" mnemonicParsing="false" onAction="#Crear" prefHeight="30.0" prefWidth="147.0" style="-fx-background-color: d2e891;" text="Crear">
+         <font>
+            <Font name="Source Code Pro Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="46.0" layoutY="41.0" mnemonicParsing="false" onAction="#MostrarNotificaciones" prefWidth="147.0" style="-fx-background-color: d2e891;" text="Notificaciones">
+         <font>
+            <Font name="Source Code Pro Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="46.0" layoutY="133.0" mnemonicParsing="false" onAction="#CompartirCalendario" prefHeight="30.0" prefWidth="147.0" style="-fx-background-color: d2e891;" text="Compartir">
+         <font>
+            <Font name="Source Code Pro Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="14.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/img_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="14.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/img_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="14.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/img_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="15.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagenes/img.png" />
+         </image>
+      </ImageView>
+      <GridPane alignment="TOP_CENTER" gridLinesVisible="true" hgap="10.0" layoutX="204.0" layoutY="153.0" prefHeight="626.0" prefWidth="1129.0" vgap="10.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="333.2" minHeight="0.0" prefHeight="25.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="395.6" minHeight="0.0" prefHeight="130.20000000000002" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="292.4" minHeight="0.0" prefHeight="120.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="167.39999999999998" minHeight="10.0" prefHeight="119.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="108.20000000000005" minHeight="10.0" prefHeight="108.20000000000005" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <TextArea prefHeight="200.0" prefWidth="200.0" promptText="2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <TextArea prefHeight="155.0" prefWidth="162.0" promptText="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="202.0" style="-fx-background-color: B4C580;" text="Domingo">
+               <font>
+                  <Font name="Droid Sans Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="95.0" prefWidth="240.0" style="-fx-background-color: B4C580;" text="Lunes" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Droid Sans Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="98.0" prefWidth="234.0" style="-fx-background-color: B4C580;" text="Martes" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Droid Sans Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="110.0" prefWidth="236.0" style="-fx-background-color: B4C580;" text="Miercoles" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Droid Sans Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="98.0" prefWidth="275.0" style="-fx-background-color: B4C580;" text="Jueves" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Droid Sans Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="83.0" prefWidth="210.0" style="-fx-background-color: B4C580;" text="Viernes" GridPane.columnIndex="5">
+               <font>
+                  <Font name="Droid Sans Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="63.0" prefWidth="194.0" style="-fx-background-color: B4C580;" text="Sabado" GridPane.columnIndex="6">
+               <font>
+                  <Font name="Droid Sans Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <TextField alignment="TOP_CENTER" layoutX="204.0" layoutY="13.0" prefHeight="68.0" prefWidth="1129.0" promptText="Escriba el titulo" style="-fx-background-color: #e3efc6;">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </TextField>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e3efc6" height="68.0" layoutX="204.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" width="1129.0" />
+      <CheckBox layoutX="1343.0" layoutY="109.0" mnemonicParsing="false" />
+      <TextField layoutX="1368.0" layoutY="102.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="160.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="214.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="270.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="338.0" prefHeight="30.0" prefWidth="149.0" />
+      <CheckBox layoutX="1343.0" layoutY="166.0" mnemonicParsing="false" />
+      <TextField layoutX="1368.0" layoutY="397.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="466.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="537.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="603.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="675.0" prefHeight="30.0" prefWidth="149.0" />
+      <TextField layoutX="1368.0" layoutY="743.0" prefHeight="30.0" prefWidth="149.0" />
+      <CheckBox layoutX="1343.0" layoutY="220.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="276.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="344.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="403.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="472.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="543.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="609.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="681.0" mnemonicParsing="false" />
+      <CheckBox layoutX="1343.0" layoutY="749.0" mnemonicParsing="false" />
+      <Button layoutX="46.0" layoutY="177.0" mnemonicParsing="false" onAction="#Vista" prefHeight="30.0" prefWidth="147.0" style="-fx-background-color: d2e891;" text="Semana">
+         <font>
+            <Font name="Source Code Pro Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
