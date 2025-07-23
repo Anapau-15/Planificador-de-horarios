@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BEIGE" height="554.0" layoutX="-3.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="844.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="498.0" layoutX="141.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="554.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#edf5d5" height="51.0" layoutX="141.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="554.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#edf5d5" height="51.0" layoutX="141.0" layoutY="69.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: EDF5D5;" width="554.0" />
+      <Button layoutY="18.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Notificaciones">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="73.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Compartir">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="130.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Crear">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="187.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Semana">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="243.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="3A-DSM">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="296.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Personal">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="357.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Reuniones">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="415.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Citas">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <Button layoutY="474.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="140.0" style="-fx-background-color: D2E891;" text="Familia">
+         <font>
+            <Font name="Arial Hebrew" size="15.0" />
+         </font></Button>
+      <TextField layoutX="726.0" layoutY="230.0" prefHeight="43.0" prefWidth="101.0" />
+      <TextField layoutX="726.0" layoutY="284.0" prefHeight="43.0" prefWidth="101.0" />
+      <TextField layoutX="726.0" layoutY="336.0" prefHeight="43.0" prefWidth="101.0" />
+      <CheckBox layoutX="715.0" layoutY="238.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="22.0" />
+      <CheckBox layoutX="715.0" layoutY="288.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="22.0" />
+      <CheckBox layoutX="715.0" layoutY="340.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="22.0" />
+      <TextField layoutX="726.0" layoutY="178.0" prefHeight="43.0" prefWidth="101.0" />
+      <CheckBox layoutX="715.0" layoutY="183.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="22.0" />
+      <Text layoutX="352.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3°A -DSM">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="338.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25 mayo 2025" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="702.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pendientes" wrappingWidth="124.236328125">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Text>
+      <TextField layoutX="231.0" layoutY="140.0" prefHeight="6.0" prefWidth="442.0" />
+      <Text layoutX="171.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="231.0" layoutY="175.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="209.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="243.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="274.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="305.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="339.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="374.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="411.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="445.0" prefHeight="6.0" prefWidth="442.0" />
+      <TextField layoutX="231.0" layoutY="483.0" prefHeight="6.0" prefWidth="442.0" />
+      <ScrollBar fx:id="scrollBar" layoutX="679.0" layoutY="118.0" orientation="VERTICAL" prefHeight="427.0" prefWidth="13.0" />
+      <Text layoutX="171.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="170.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="171.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="171.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="171.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="171.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="171.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="170.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="165.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="170.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="231.0" layoutY="521.0" prefHeight="6.0" prefWidth="442.0" />
+      <Text layoutX="165.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11 am">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="726.0" layoutY="394.0" prefHeight="43.0" prefWidth="101.0" />
+      <CheckBox layoutX="715.0" layoutY="397.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="22.0" />
+   </children>
+</AnchorPane>
